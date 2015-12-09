@@ -9,7 +9,7 @@ namespace Moderna
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/appjs").Include(
-                     "~/js/jquery-1.10.2",
+                     "~/js/jquery-1.10.2.js",
                      "~/js/validate.js",
                      "~/js/jquery.easing.1.3.js",
                      "~/js/bootstrap.min.js",
@@ -22,6 +22,12 @@ namespace Moderna
                      "~/js/animate.js",
                      "~/js/custom.js",
                      "~/js/facebook.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/angular").Include(
+                "~/js/vendor/angular/angular.min.js",
+                "~/js/vendor/angular-route/angular-route.min.js",
+                "~/js/app.js"
+                ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/css/bootstrap.min.css",

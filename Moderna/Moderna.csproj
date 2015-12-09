@@ -137,16 +137,23 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\animate.css" />
     <Content Include="css\avatar.png" />
     <Content Include="css\bg_direction_nav.png" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\custom-fonts.css" />
     <Content Include="css\fancybox\blank.gif" />
     <Content Include="css\fancybox\fancybox_loading.gif" />
     <Content Include="css\fancybox\fancybox_overlay.png" />
     <Content Include="css\fancybox\fancybox_sprite.png" />
     <Content Include="css\fancybox\jquery.fancybox.css" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\font-awesome.css" />
     <Content Include="css\glyphicons-halflings-white.png" />
     <Content Include="css\glyphicons-halflings.png" />
     <Content Include="css\nivo-bullets.png" />
+    <Content Include="css\overwrite.css" />
+    <Content Include="css\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -175,6 +182,7 @@
     <Content Include="img\works\7.jpg" />
     <Content Include="img\works\8.jpg" />
     <Content Include="js\animate.js" />
+    <Content Include="js\app.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\custom.js" />
     <Content Include="js\flexslider\jquery.flexslider.js" />
@@ -195,6 +203,8 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\FontAwesome.otf" />
+    <None Include=".bowerrc" />
+    <Content Include="bower.json" />
     <None Include="js\jquery-1.10.2.intellisense.js" />
     <Content Include="js\jquery-1.10.2.js" />
     <Content Include="js\jquery-1.10.2.min.js" />
@@ -206,7 +216,16 @@
     <Content Include="js\modernizr-2.6.2.js" />
     <Content Include="js\respond.js" />
     <Content Include="js\respond.min.js" />
+    <Content Include="js\vendor\angular-route\angular-route.js" />
+    <Content Include="js\vendor\angular-route\angular-route.min.js" />
+    <Content Include="js\vendor\angular-route\index.js" />
+    <Content Include="js\vendor\angular\angular-csp.css" />
+    <Content Include="js\vendor\angular\angular.js" />
+    <Content Include="js\vendor\angular\angular.min.js" />
+    <Content Include="js\vendor\angular\index.js" />
     <Content Include="skins\default.css" />
+    <Content Include="Templates\forside.html" />
+    <Content Include="Views\Templates\forside.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -225,6 +244,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="fonts\customicon\" />
+    <Folder Include="js\Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -232,6 +252,17 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
+    <Content Include="js\vendor\angular-route\.bower.json" />
+    <Content Include="js\vendor\angular-route\angular-route.min.js.map" />
+    <Content Include="js\vendor\angular-route\bower.json" />
+    <Content Include="js\vendor\angular-route\package.json" />
+    <Content Include="js\vendor\angular-route\README.md" />
+    <Content Include="js\vendor\angular\.bower.json" />
+    <Content Include="js\vendor\angular\angular.min.js.gzip" />
+    <Content Include="js\vendor\angular\angular.min.js.map" />
+    <Content Include="js\vendor\angular\bower.json" />
+    <Content Include="js\vendor\angular\package.json" />
+    <Content Include="js\vendor\angular\README.md" />
     <None Include="Project_Readme.html" />
     <Content Include="js\jquery-1.10.2.min.map" />
   </ItemGroup>

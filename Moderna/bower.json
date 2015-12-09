@@ -1,0 +1,23 @@
+{
+  "name": "Moderna",
+  "homepage": "https://github.com/gonadn/Moderna_Template_MVC",
+  "authors": [
+    "Adnan Riaz Gondal <gonadn@live.no>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.4.8",
+    "angular": "~1.4.8"
+  }
+}
